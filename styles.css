@@ -31,6 +31,12 @@ section{
 
 		@media (min-width:992px)
 		{
+			.container-fluid{
+				padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+			}
 		      div>h1{
 				float:left;
 				color:blue;
@@ -135,7 +141,13 @@ section{
 }
 }
 @media (min-width:768px) and (max-width:991px)
-		{div>h1{
+		{
+			.container-fluid{
+				padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;}
+			div>h1{
 				float:left;
 				color:blue;
 				font-size:90%;
@@ -227,7 +239,13 @@ section{
 }
 }
 @media (max-width:767px)
-		{div>h1{
+		{
+			.container-fluid{
+				padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;}
+    div>h1{
 				float:left 20px;
 				color:blue;
 				font-size:90%;
